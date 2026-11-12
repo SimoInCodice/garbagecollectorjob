@@ -36,7 +36,7 @@ local function detachPed()
 end
 
 CreateThread(function()
-    exports.ox_target:addModel(`trash`, {
+    exports.ox_target:addModel(Config.Vehicle.Model, {
             {
             name = 'trash',
             icon = 'fas fa-trash',
