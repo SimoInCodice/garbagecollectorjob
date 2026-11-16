@@ -15,6 +15,7 @@
 ## What you need
 
 ### 1. The item
+- ox_inventory syntax
 
 ```lua
 ['garbage_bag'] = { -- ITEM_KEY (you can change it here and you must change it in the config)
